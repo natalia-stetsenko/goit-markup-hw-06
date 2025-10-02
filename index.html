@@ -113,8 +113,8 @@
                 <ul class="team-list">
 
                     <li class="team-item">
-                        <img class="team-photo" src="./images/img-1.jpg" alt="Mark Guerrero, Product Designer"
-                            width="264" />
+                        <img class="team-photo" srcset="./images/img-1.jpg 1x, ./images/img-1-2x.jpg 2x"
+                            src="./images/img-1.jpg" alt="Mark Guerrero, Product Designer" width="264" />
                         <div class="team-card-content">
                             <h3 class="team-name">Mark Guerrero</h3>
                             <p class="team-role">Product Designer</p>
@@ -152,8 +152,8 @@
                     </li>
 
                     <li class="team-item">
-                        <img class="team-photo" src="./images/img-2.jpg" alt="Tom Ford, Frontend Developer"
-                            width="264" />
+                        <img class="team-photo" srcset="./images/img-2.jpg 1x, ./images/img-2-2x.jpg 2x"
+                            src="./images/img-2.jpg" alt="Tom Ford, Frontend Developer" width="264" />
                         <div class="team-card-content">
                             <h3 class="team-name">Tom Ford</h3>
                             <p class="team-role">Frontend Developer</p>
@@ -191,7 +191,8 @@
                     </li>
 
                     <li class="team-item">
-                        <img class="team-photo" src="./images/img-3.jpg" alt="Camila Garcia, Marketing" width="264" />
+                        <img class="team-photo" srcset="./images/img-3.jpg 1x, ./images/img-3-2x.jpg 2x"
+                            src="./images/img-3.jpg" alt="Camila Garcia, Marketing" width="264" />
                         <div class="team-card-content">
                             <h3 class="team-name">Camila Garcia</h3>
                             <p class="team-role">Marketing</p>
@@ -229,7 +230,8 @@
                     </li>
 
                     <li class="team-item">
-                        <img class="team-photo" src="./images/img-4.jpg" alt="Daniel Wilson, UI Designer" width="264" />
+                        <img class="team-photo" srcset="./images/img-4.jpg 1x, ./images/img-4-2x.jpg 2x"
+                            src="./images/img-4.jpg" alt="Daniel Wilson, UI Designer" width="264" />
                         <div class="team-card-content">
                             <h3 class="team-name">Daniel Wilson</h3>
                             <p class="team-role">UI Designer</p>
@@ -278,8 +280,17 @@
                     <li class="portfolio-item">
 
                         <div class="portfolio-item-cover">
-                            <img class="portfolio-photo" src="./images/img-portfol-1.jpg"
-                                alt="Mobile banking app interface" width="360" />
+                            <picture>
+                                <source srcset="./images/img-portfol-1.jpg 1x, ./images/img-portfol-1-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source srcset="./images/img-portfol-tab-1.jpg 1x, ./images/img-portfol-tab-1-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-portfol-mob-1.jpg 1x, ./images/img-portfol-mob-1-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="portfolio-photo" src="./images/img-portfol-1.jpg"
+                                    alt="Mobile banking app interface" width="360" />
+                            </picture>
+
                             <p class="portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager
                                 App ·
@@ -295,8 +306,17 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="portfolio-item-cover">
-                            <img class="portfolio-photo" src="./images/img-portfol-2.jpg"
-                                alt="Cashless payment service design" width="360" />
+                            <picture>
+                                <source srcset="./images/img-portfol-2.jpg 1x, ./images/img-portfol-2-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source srcset="./images/img-portfol-tab-2.jpg 1x, ./images/img-portfol-tab-2-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-portfol-mob-2.jpg 1x, ./images/img-portfol-mob-2-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="portfolio-photo" src="./images/img-portfol-2.jpg"
+                                    alt="Cashless payment service design" width="360" />
+                            </picture>
+
                             <p class="portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager
                                 App ·
@@ -311,8 +331,17 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="portfolio-item-cover">
-                            <img class="portfolio-photo" src="./images/img-portfol-3.jpg"
-                                alt="Meditation app user interface" width="360" />
+                            <picture>
+                                <source srcset="./images/img-portfol-3.jpg 1x, ./images/img-portfol-3-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source srcset="./images/img-portfol-tab-3.jpg 1x, ./images/img-portfol-tab-3-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-portfol-mob-3.jpg 1x, ./images/img-portfol-mob-3-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="portfolio-photo" src="./images/img-portfol-3.jpg"
+                                    alt="Meditation app user interface" width="360" />
+                            </picture>
+
                             <p class="portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager
                                 App ·
@@ -327,8 +356,16 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="portfolio-item-cover">
-                            <img class="portfolio-photo" src="./images/img-portfol-4.jpg"
-                                alt="Taxi service mobile app screen" width="360" />
+                            <picture>
+                                <source srcset="./images/img-portfol-4.jpg 1x, ./images/img-portfol-4-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source srcset="./images/img-portfol-tab-4.jpg 1x, ./images/img-portfol-tab-4-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-portfol-mob-4.jpg 1x, ./images/img-portfol-mob-4-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="portfolio-photo" src="./images/img-portfol-4.jpg"
+                                    alt="Taxi service mobile app screen" width="360" />
+                            </picture>
                             <p class="portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager
                                 App ·
@@ -343,8 +380,17 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="portfolio-item-cover">
-                            <img class="portfolio-photo" src="./images/img-portfol-5.jpg"
-                                alt="Screen illustrations for digital design" width="360" />
+                            <picture>
+                                <source srcset="./images/img-portfol-5.jpg 1x, ./images/img-portfol-5-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source srcset="./images/img-portfol-tab-5.jpg 1x, ./images/img-portfol-tab-5-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-portfol-mob-5.jpg 1x, ./images/img-portfol-mob-5-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="portfolio-photo" src="./images/img-portfol-5.jpg"
+                                    alt="Screen illustrations for digital design" width="360" />
+                            </picture>
+
                             <p class="portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager
                                 App ·
@@ -359,8 +405,17 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="portfolio-item-cover">
-                            <img class="portfolio-photo" src="./images/img-portfol-6.jpg"
-                                alt="Online courses platform layout" width="360" />
+                            <picture>
+                                <source srcset="./images/img-portfol-6.jpg 1x, ./images/img-portfol-6-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source srcset="./images/img-portfol-tab-6.jpg 1x, ./images/img-portfol-tab-6-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-portfol-mob-6.jpg 1x, ./images/img-portfol-mob-6-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="portfolio-photo" src="./images/img-portfol-6.jpg"
+                                    alt="Online courses platform layout" width="360" />
+                            </picture>
+
                             <p class="portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager
                                 App ·
