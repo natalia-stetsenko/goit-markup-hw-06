@@ -233,11 +233,11 @@ button {
   pointer-events: none;
 }
 
-.mobile-menu.is-open {
+/* .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
   position: auto;
-}
+} */
 
 .mobile-menu-container {
   position: relative;
